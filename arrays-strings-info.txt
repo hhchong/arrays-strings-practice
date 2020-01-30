@@ -1,0 +1,10 @@
+HASH TABLES: 
+
+    Worst case runtime with lots of collisions is O(N), but good implementation is O(1)
+
+    A word -> hash code -> an index in an array (done with hash(key) % len(array)) -> linked list at the index, for collision resolution
+
+LISTS:
+
+    Lists in python are dynamic, resizing (append, pop) is O(1). Insertion is O(n)
+    
